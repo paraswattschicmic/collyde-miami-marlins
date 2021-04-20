@@ -20,8 +20,9 @@
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* collydeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* collydeTests.m */; };
 		4B2AD44C7BEA32F128F5EB89 /* libPods-collyde-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1366D47E7892247E1192DC51 /* libPods-collyde-tvOS.a */; };
-		6AE652F124D9BB8100D3AE8F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6AE652F024D9BB8100D3AE8F /* GoogleService-Info.plist */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		930651D9262F023200931016 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 930651D8262F023200931016 /* GoogleService-Info.plist */; };
+		930651DA262F023200931016 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 930651D8262F023200931016 /* GoogleService-Info.plist */; };
 		D8CEDEA4D0D648B9AB07A4BC /* SFProText-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0DB2C123338240BF98BCCD3A /* SFProText-Bold.ttf */; };
 		FC9855653AB75F67F817D572 /* libPods-collyde-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0708457E77B1A62BEBB7FB1B /* libPods-collyde-tvOSTests.a */; };
 /* End PBXBuildFile section */
@@ -69,10 +70,10 @@
 		5DB135F88462C73F795EDB13 /* Pods-collyde-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-collyde-tvOS.release.xcconfig"; path = "Target Support Files/Pods-collyde-tvOS/Pods-collyde-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		605207E139544CFE9CEEEA3D /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
 		6ADCFAE524E47072009B115D /* Collyde.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = Collyde.entitlements; path = collyde/Collyde.entitlements; sourceTree = "<group>"; };
-		6AE652F024D9BB8100D3AE8F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = collyde/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		850D5DDFD4D721F98D24303A /* Pods-collyde-collydeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-collyde-collydeTests.release.xcconfig"; path = "Target Support Files/Pods-collyde-collydeTests/Pods-collyde-collydeTests.release.xcconfig"; sourceTree = "<group>"; };
 		8D41CB1C7734466BBAB5B310 /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
+		930651D8262F023200931016 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		9E2B83E2D8FA45EDB6ECCAE4 /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
 		A2E3402AE9B1F0C3FD4CAF69 /* Pods-collyde.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-collyde.release.xcconfig"; path = "Target Support Files/Pods-collyde/Pods-collyde.release.xcconfig"; sourceTree = "<group>"; };
 		A7E7A6A972D3D7BF1160634B /* libPods-collyde-collydeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-collyde-collydeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -152,7 +153,7 @@
 			children = (
 				6ADCFAE524E47072009B115D /* Collyde.entitlements */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
-				6AE652F024D9BB8100D3AE8F /* GoogleService-Info.plist */,
+				930651D8262F023200931016 /* GoogleService-Info.plist */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				2564B97C25ED169600E028AA /* File.swift */,
@@ -398,9 +399,9 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				6AE652F124D9BB8100D3AE8F /* GoogleService-Info.plist in Resources */,
 				D8CEDEA4D0D648B9AB07A4BC /* SFProText-Bold.ttf in Resources */,
 				100748E1D3554BDC89DC32C3 /* SFProText-Regular.ttf in Resources */,
+				930651D9262F023200931016 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +410,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */,
+				930651DA262F023200931016 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -817,7 +819,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.collyde.app;
+				PRODUCT_BUNDLE_IDENTIFIER = com.collyde.marlins.app;
 				PRODUCT_NAME = Collyde;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -846,7 +848,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.collyde.app;
+				PRODUCT_BUNDLE_IDENTIFIER = com.collyde.marlins.app;
 				PRODUCT_NAME = Collyde;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
